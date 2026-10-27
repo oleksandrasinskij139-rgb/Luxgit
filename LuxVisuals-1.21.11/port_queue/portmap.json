@@ -1,0 +1,1057 @@
+[
+ {
+  "unlocks": 298,
+  "file": "code/miaware/client/util/render/effects/K210427f95fa84672e0.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "Framebuffer"
+  ],
+  "lines": 158,
+  "direct_dependents": 1
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/client/util/render/Kefb5586baca5cdbb77.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator",
+   "Шейдеры",
+   "Framebuffer"
+  ],
+  "lines": 331,
+  "direct_dependents": 2
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/client/util/render/K3dbb0e5dfbba4d83dc.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator",
+   "Шейдеры"
+  ],
+  "lines": 171,
+  "direct_dependents": 2
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/client/util/render/K2516fc881f143ca1ea.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator",
+   "Шейдеры",
+   "Framebuffer"
+  ],
+  "lines": 139,
+  "direct_dependents": 2
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/client/ui/widget/target/K677fcc4f631147f8f0.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator"
+  ],
+  "lines": 125,
+  "direct_dependents": 1
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/client/ui/widget/overlay/Kfbf316195041468d42.java",
+  "kinds": [
+   "RenderSystem/GL"
+  ],
+  "lines": 320,
+  "direct_dependents": 1
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/client/ui/widget/overlay/Ke7bc31f4b136a6abd9.java",
+  "kinds": [
+   "RenderSystem/GL"
+  ],
+  "lines": 252,
+  "direct_dependents": 1
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/client/ui/widget/overlay/Kcf5c3bed12d824555f.java",
+  "kinds": [
+   "RenderSystem/GL"
+  ],
+  "lines": 326,
+  "direct_dependents": 1
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/client/ui/widget/overlay/K49cedf6bb2f6b45927.java",
+  "kinds": [
+   "RenderSystem/GL"
+  ],
+  "lines": 238,
+  "direct_dependents": 1
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/client/ui/widget/Kdd908967ec41b41bcf.java",
+  "kinds": [
+   "RenderSystem/GL"
+  ],
+  "lines": 83,
+  "direct_dependents": 5
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/client/ui/journey/K1b44e53424f6810c1d.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator"
+  ],
+  "lines": 90,
+  "direct_dependents": 1
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/client/ui/clickgui/ScreenIRCGui.java",
+  "kinds": [
+   "RenderSystem/GL"
+  ],
+  "lines": 3540,
+  "direct_dependents": 3
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/client/ui/clickgui/K64dfc1330d745b4d7f.java",
+  "kinds": [
+   "RenderSystem/GL"
+  ],
+  "lines": 258,
+  "direct_dependents": 2
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/client/features/modules/render/targetesp/modes/Kdd381d681f391b4ad7.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator"
+  ],
+  "lines": 140,
+  "direct_dependents": 1
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/client/features/modules/render/targetesp/modes/K8e21e481d8cc09697d.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator"
+  ],
+  "lines": 128,
+  "direct_dependents": 1
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/client/features/modules/render/targetesp/modes/K8d77eef01276514f09.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator"
+  ],
+  "lines": 439,
+  "direct_dependents": 1
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/client/features/modules/render/targetesp/modes/K81d8b18ef55e9e4171.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator"
+  ],
+  "lines": 143,
+  "direct_dependents": 1
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/client/features/modules/render/targetesp/modes/K7008defff6ec6a6379.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator"
+  ],
+  "lines": 141,
+  "direct_dependents": 1
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/client/features/modules/render/targetesp/modes/K68336bb745c58b1b21.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator"
+  ],
+  "lines": 253,
+  "direct_dependents": 1
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/client/features/modules/render/targetesp/modes/K061cf4a0fb9013634e.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator"
+  ],
+  "lines": 198,
+  "direct_dependents": 1
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/client/features/modules/render/killeffect/K540b1eed9037d7ce28.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator"
+  ],
+  "lines": 80,
+  "direct_dependents": 1
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/client/features/modules/render/Kec179db56117a0f1bd.java",
+  "kinds": [
+   "RenderSystem/GL"
+  ],
+  "lines": 99,
+  "direct_dependents": 1
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/client/features/modules/render/Ke4080118fb4a1a51fb.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator"
+  ],
+  "lines": 292,
+  "direct_dependents": 2
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/client/features/modules/render/Ke3e0017c49d95e97e2.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator"
+  ],
+  "lines": 208,
+  "direct_dependents": 1
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/client/features/modules/render/Kcc60133648b8ff2d03.java",
+  "kinds": [
+   "RenderSystem/GL"
+  ],
+  "lines": 181,
+  "direct_dependents": 8
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/client/features/modules/render/Kc341cd7df53a24fc87.java",
+  "kinds": [
+   "RenderSystem/GL"
+  ],
+  "lines": 98,
+  "direct_dependents": 1
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/client/features/modules/render/K9b230e9e951a95fb0f.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator"
+  ],
+  "lines": 410,
+  "direct_dependents": 1
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/client/features/modules/render/K9826f34fa75d74c813.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator"
+  ],
+  "lines": 146,
+  "direct_dependents": 1
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/client/features/modules/render/K8fbb97c2e28afe7ed7.java",
+  "kinds": [
+   "RenderSystem/GL"
+  ],
+  "lines": 233,
+  "direct_dependents": 1
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/client/features/modules/render/K7f7d5fe93b117b66e5.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator"
+  ],
+  "lines": 268,
+  "direct_dependents": 2
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/client/features/modules/render/K79e0f6624e5ddb7ac3.java",
+  "kinds": [
+   "Framebuffer"
+  ],
+  "lines": 264,
+  "direct_dependents": 3
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/client/features/modules/render/K58d4d66f061a2a6fed.java",
+  "kinds": [
+   "RenderSystem/GL"
+  ],
+  "lines": 302,
+  "direct_dependents": 2
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/client/features/modules/render/K4fe6907c39a36ee432.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator"
+  ],
+  "lines": 143,
+  "direct_dependents": 1
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/client/features/modules/render/K45c34df60baf36141a.java",
+  "kinds": [
+   "RenderSystem/GL"
+  ],
+  "lines": 263,
+  "direct_dependents": 1
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/client/features/modules/render/K419138a37ac07d97bc.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator"
+  ],
+  "lines": 135,
+  "direct_dependents": 1
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/client/features/modules/render/K3c7165dabd6caf193e.java",
+  "kinds": [
+   "RenderSystem/GL"
+  ],
+  "lines": 136,
+  "direct_dependents": 1
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/client/features/modules/render/K31b67d2e365a61bf94.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator"
+  ],
+  "lines": 622,
+  "direct_dependents": 1
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/client/features/modules/render/K1a5541f874ac8aca42.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator"
+  ],
+  "lines": 766,
+  "direct_dependents": 1
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/client/features/modules/render/K1162659203460bc8c0.java",
+  "kinds": [
+   "BufferBuilder/Tesselator"
+  ],
+  "lines": 320,
+  "direct_dependents": 3
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/client/features/modules/render/K06c5fe9af11c5525ae.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator"
+  ],
+  "lines": 318,
+  "direct_dependents": 1
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/client/features/modules/player/K6f46e31d3de2b9b245.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator"
+  ],
+  "lines": 709,
+  "direct_dependents": 2
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/client/features/modules/player/K6d925cb38008efb1ff.java",
+  "kinds": [
+   "RenderSystem/GL"
+  ],
+  "lines": 428,
+  "direct_dependents": 1
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/client/features/modules/player/K3772938c260ac1ad93.java",
+  "kinds": [
+   "RenderSystem/GL"
+  ],
+  "lines": 152,
+  "direct_dependents": 1
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/client/features/modules/player/K2050dbfe56d4d85122.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator"
+  ],
+  "lines": 334,
+  "direct_dependents": 1
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/client/features/modules/movement/Kc0c84ddcf14906c88d.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator"
+  ],
+  "lines": 88,
+  "direct_dependents": 1
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/client/features/modules/movement/Ka09756d64144ec388c.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator"
+  ],
+  "lines": 275,
+  "direct_dependents": 1
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/client/features/modules/movement/K4dad1424dccce51a10.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator"
+  ],
+  "lines": 151,
+  "direct_dependents": 1
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/client/features/modules/movement/K0574a7e784c41d227d.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator"
+  ],
+  "lines": 134,
+  "direct_dependents": 2
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/api/utils/render/shader/K745964d54ca1b172b8.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator",
+   "Шейдеры"
+  ],
+  "lines": 55,
+  "direct_dependents": 4
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/api/utils/render/fonts/K5fe84dad3db1af4bb7.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator",
+   "Шейдеры"
+  ],
+  "lines": 349,
+  "direct_dependents": 6
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/api/utils/render/elytra/K27418430766eb72d11.java",
+  "kinds": [
+   "BufferBuilder/Tesselator"
+  ],
+  "lines": 50,
+  "direct_dependents": 1
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/api/utils/render/display/Kd372127b914786d2c2.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator",
+   "Шейдеры"
+  ],
+  "lines": 73,
+  "direct_dependents": 1
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/api/utils/render/display/Kcbe53000d5ac31f9fb.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator",
+   "Шейдеры"
+  ],
+  "lines": 62,
+  "direct_dependents": 1
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/api/utils/render/display/Kbab85e821f770b3523.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator",
+   "Шейдеры",
+   "Framebuffer"
+  ],
+  "lines": 150,
+  "direct_dependents": 2
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/api/utils/render/display/Ka9c28a2b9fee5a34d6.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator",
+   "Шейдеры"
+  ],
+  "lines": 67,
+  "direct_dependents": 1
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/api/utils/render/display/K9fca83c9ab54ebe745.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator"
+  ],
+  "lines": 330,
+  "direct_dependents": 2
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/api/utils/render/display/K4b843475c2462d48b1.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator",
+   "Шейдеры"
+  ],
+  "lines": 196,
+  "direct_dependents": 2
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/api/utils/render/display/K44d968e8d80cb06add.java",
+  "kinds": [
+   "RenderSystem/GL"
+  ],
+  "lines": 76,
+  "direct_dependents": 1
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/api/utils/render/Kecb75e73598eb5799c.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator",
+   "Шейдеры",
+   "Framebuffer"
+  ],
+  "lines": 127,
+  "direct_dependents": 3
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/api/utils/render/Ke8433384857ddcab3d.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator",
+   "Framebuffer"
+  ],
+  "lines": 247,
+  "direct_dependents": 12
+ },
+ {
+  "unlocks": 298,
+  "file": "code/miaware/api/utils/render/K5b5bf2e4f791eb67a2.java",
+  "kinds": [
+   "RenderSystem/GL"
+  ],
+  "lines": 92,
+  "direct_dependents": 4
+ },
+ {
+  "unlocks": 7,
+  "file": "ru/phantom/Phantom.java",
+  "kinds": [
+   "RenderSystem/GL"
+  ],
+  "lines": 922,
+  "direct_dependents": 19
+ },
+ {
+  "unlocks": 4,
+  "file": "code/miaware/client/util/render/effects/K2c4b0ab5cb7fa68cf2.java",
+  "kinds": [
+   "RenderSystem/GL"
+  ],
+  "lines": 52,
+  "direct_dependents": 1
+ },
+ {
+  "unlocks": 3,
+  "file": "code/miaware/client/util/render/effects/Kb74d5d2c9e20d74d0d.java",
+  "kinds": [
+   "RenderSystem/GL"
+  ],
+  "lines": 75,
+  "direct_dependents": 2
+ },
+ {
+  "unlocks": 3,
+  "file": "code/miaware/client/util/render/effects/K6588cb1ea6dceff65b.java",
+  "kinds": [
+   "RenderSystem/GL"
+  ],
+  "lines": 148,
+  "direct_dependents": 2
+ },
+ {
+  "unlocks": 1,
+  "file": "code/miaware/client/ui/theme/K3195adfcc0c0135ece.java",
+  "kinds": [
+   "Framebuffer"
+  ],
+  "lines": 60,
+  "direct_dependents": 1
+ },
+ {
+  "unlocks": 1,
+  "file": "code/miaware/client/features/modules/player/invsave/K402a602b5f2f2b781f.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "Шейдеры",
+   "Framebuffer"
+  ],
+  "lines": 290,
+  "direct_dependents": 1
+ },
+ {
+  "unlocks": 1,
+  "file": "code/miaware/client/features/modules/combat/hitbox/K622b5654eecec333de.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator",
+   "Шейдеры"
+  ],
+  "lines": 109,
+  "direct_dependents": 1
+ },
+ {
+  "unlocks": 1,
+  "file": "code/miaware/api/utils/render/K357718bb1c119935c3.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator"
+  ],
+  "lines": 190,
+  "direct_dependents": 1
+ },
+ {
+  "unlocks": 1,
+  "file": "code/miaware/api/utils/render/K300f7955bbb2ec50a2.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator"
+  ],
+  "lines": 64,
+  "direct_dependents": 1
+ },
+ {
+  "unlocks": 1,
+  "file": "code/miaware/api/utils/render/K1f4d66c1a0cf52e6aa.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "Framebuffer"
+  ],
+  "lines": 184,
+  "direct_dependents": 1
+ },
+ {
+  "unlocks": 0,
+  "file": "ru/phantom/mixin/minecraft/client/render/WorldRendererMixin.java",
+  "kinds": [
+   "Шейдеры"
+  ],
+  "lines": 39,
+  "direct_dependents": 0
+ },
+ {
+  "unlocks": 0,
+  "file": "ru/phantom/mixin/minecraft/client/render/PlayerListHudMixin.java",
+  "kinds": [
+   "RenderSystem/GL"
+  ],
+  "lines": 59,
+  "direct_dependents": 0
+ },
+ {
+  "unlocks": 0,
+  "file": "ru/phantom/mixin/minecraft/client/render/GameRendererMixin.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "Шейдеры",
+   "ResourceManager"
+  ],
+  "lines": 279,
+  "direct_dependents": 0
+ },
+ {
+  "unlocks": 0,
+  "file": "ru/phantom/mixin/minecraft/client/render/EntityHitboxMixin.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator"
+  ],
+  "lines": 224,
+  "direct_dependents": 0
+ },
+ {
+  "unlocks": 0,
+  "file": "ru/phantom/mixin/minecraft/client/render/ChatHudMixin.java",
+  "kinds": [
+   "RenderSystem/GL"
+  ],
+  "lines": 114,
+  "direct_dependents": 0
+ },
+ {
+  "unlocks": 0,
+  "file": "ru/phantom/mixin/minecraft/client/gui/screen/ChatScreenMixin.java",
+  "kinds": [
+   "RenderSystem/GL"
+  ],
+  "lines": 136,
+  "direct_dependents": 0
+ },
+ {
+  "unlocks": 0,
+  "file": "ru/phantom/mixin/minecraft/client/accessors/ShaderProgramAccessor.java",
+  "kinds": [
+   "Шейдеры"
+  ],
+  "lines": 13,
+  "direct_dependents": 0
+ },
+ {
+  "unlocks": 0,
+  "file": "ru/phantom/mixin/minecraft/client/SkyRenderingMixin.java",
+  "kinds": [
+   "RenderSystem/GL"
+  ],
+  "lines": 72,
+  "direct_dependents": 0
+ },
+ {
+  "unlocks": 0,
+  "file": "code/miaware/inject/render/MixinRenderSystem.java",
+  "kinds": [
+   "RenderSystem/GL"
+  ],
+  "lines": 23,
+  "direct_dependents": 0
+ },
+ {
+  "unlocks": 0,
+  "file": "code/miaware/inject/render/MixinRenderPhaseHudTarget.java",
+  "kinds": [
+   "RenderSystem/GL"
+  ],
+  "lines": 43,
+  "direct_dependents": 0
+ },
+ {
+  "unlocks": 0,
+  "file": "code/miaware/inject/render/MixinLivingEntityRendererPlayerShader.java",
+  "kinds": [
+   "Framebuffer"
+  ],
+  "lines": 135,
+  "direct_dependents": 0
+ },
+ {
+  "unlocks": 0,
+  "file": "code/miaware/inject/render/MixinLivingEntityRendererFriend.java",
+  "kinds": [
+   "RenderSystem/GL"
+  ],
+  "lines": 43,
+  "direct_dependents": 0
+ },
+ {
+  "unlocks": 0,
+  "file": "code/miaware/inject/render/MixinGameRendererHandBlur.java",
+  "kinds": [
+   "Шейдеры",
+   "Framebuffer"
+  ],
+  "lines": 111,
+  "direct_dependents": 0
+ },
+ {
+  "unlocks": 0,
+  "file": "code/miaware/inject/render/MixinGameRenderer.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "Шейдеры"
+  ],
+  "lines": 179,
+  "direct_dependents": 0
+ },
+ {
+  "unlocks": 0,
+  "file": "code/miaware/inject/render/MixinBuiltBufferCentroids.java",
+  "kinds": [
+   "BufferBuilder/Tesselator"
+  ],
+  "lines": 28,
+  "direct_dependents": 0
+ },
+ {
+  "unlocks": 0,
+  "file": "code/miaware/client/util/render/effects/K035b86a6e761d0d2cb.java",
+  "kinds": [
+   "RenderSystem/GL"
+  ],
+  "lines": 230,
+  "direct_dependents": 0
+ },
+ {
+  "unlocks": 0,
+  "file": "code/miaware/client/ui/widget/overlay/K26da897597ee71d7fd.java",
+  "kinds": [
+   "RenderSystem/GL"
+  ],
+  "lines": 255,
+  "direct_dependents": 0
+ },
+ {
+  "unlocks": 0,
+  "file": "code/miaware/client/ui/theme/Kfa308fa591bea5a311.java",
+  "kinds": [
+   "RenderSystem/GL"
+  ],
+  "lines": 127,
+  "direct_dependents": 0
+ },
+ {
+  "unlocks": 0,
+  "file": "code/miaware/client/features/modules/render/targetesp/modes/Kcb7b8bdbc7b44bb0ac.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator"
+  ],
+  "lines": 102,
+  "direct_dependents": 0
+ },
+ {
+  "unlocks": 0,
+  "file": "code/miaware/client/features/modules/render/targetesp/Ke99984f8c7995a1b31.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator"
+  ],
+  "lines": 180,
+  "direct_dependents": 0
+ },
+ {
+  "unlocks": 0,
+  "file": "code/miaware/client/features/modules/render/particles/Kbd989b7b534ee9cdce.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator"
+  ],
+  "lines": 540,
+  "direct_dependents": 0
+ },
+ {
+  "unlocks": 0,
+  "file": "code/miaware/client/features/modules/render/particles/K9757f4fdb908dd4583.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator"
+  ],
+  "lines": 229,
+  "direct_dependents": 0
+ },
+ {
+  "unlocks": 0,
+  "file": "code/miaware/client/features/modules/render/Kf7a85a9ade792fc05f.java",
+  "kinds": [
+   "BufferBuilder/Tesselator"
+  ],
+  "lines": 51,
+  "direct_dependents": 0
+ },
+ {
+  "unlocks": 0,
+  "file": "code/miaware/client/features/modules/render/Ke3847952eb862510db.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator"
+  ],
+  "lines": 625,
+  "direct_dependents": 0
+ },
+ {
+  "unlocks": 0,
+  "file": "code/miaware/client/features/modules/render/K96b2df1735cfd9ad42.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "Шейдеры"
+  ],
+  "lines": 54,
+  "direct_dependents": 0
+ },
+ {
+  "unlocks": 0,
+  "file": "code/miaware/client/features/modules/render/K503fbacce527792274.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator"
+  ],
+  "lines": 138,
+  "direct_dependents": 0
+ },
+ {
+  "unlocks": 0,
+  "file": "code/miaware/client/features/modules/render/K4d69a1bf9db467dafb.java",
+  "kinds": [
+   "BufferBuilder/Tesselator"
+  ],
+  "lines": 141,
+  "direct_dependents": 0
+ },
+ {
+  "unlocks": 0,
+  "file": "code/miaware/client/features/modules/render/K051deaddf79ee0bf21.java",
+  "kinds": [
+   "BufferBuilder/Tesselator"
+  ],
+  "lines": 70,
+  "direct_dependents": 0
+ },
+ {
+  "unlocks": 0,
+  "file": "code/miaware/client/features/modules/player/Kd36858e45faa4e69f0.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator"
+  ],
+  "lines": 578,
+  "direct_dependents": 0
+ },
+ {
+  "unlocks": 0,
+  "file": "code/miaware/api/utils/render/shader/Ka4ccb14c907d3c4f51.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator",
+   "Шейдеры"
+  ],
+  "lines": 63,
+  "direct_dependents": 0
+ },
+ {
+  "unlocks": 0,
+  "file": "code/miaware/api/utils/render/fonts/K57b57df54f7cd42184.java",
+  "kinds": [
+   "RenderSystem/GL"
+  ],
+  "lines": 112,
+  "direct_dependents": 0
+ },
+ {
+  "unlocks": 0,
+  "file": "code/miaware/api/utils/render/fonts/K11ef91e33d46fe9b37.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator",
+   "Шейдеры"
+  ],
+  "lines": 94,
+  "direct_dependents": 0
+ },
+ {
+  "unlocks": 0,
+  "file": "code/miaware/api/utils/render/elytra/K54fd1c8282fb3dd387.java",
+  "kinds": [
+   "RenderSystem/GL"
+  ],
+  "lines": 64,
+  "direct_dependents": 0
+ },
+ {
+  "unlocks": 0,
+  "file": "code/miaware/api/utils/render/display/K9a2b4acec2c36f99d1.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator"
+  ],
+  "lines": 92,
+  "direct_dependents": 0
+ },
+ {
+  "unlocks": 0,
+  "file": "code/miaware/api/utils/render/Kddf5cf479d75866b66.java",
+  "kinds": [
+   "BufferBuilder/Tesselator"
+  ],
+  "lines": 15,
+  "direct_dependents": 0
+ },
+ {
+  "unlocks": 0,
+  "file": "code/miaware/api/utils/render/Kb7eb39acab6bd86adf.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "BufferBuilder/Tesselator"
+  ],
+  "lines": 117,
+  "direct_dependents": 0
+ },
+ {
+  "unlocks": 0,
+  "file": "code/miaware/api/utils/render/K92ffe79dd4f363a0ce.java",
+  "kinds": [
+   "RenderSystem/GL",
+   "Framebuffer"
+  ],
+  "lines": 47,
+  "direct_dependents": 0
+ }
+]

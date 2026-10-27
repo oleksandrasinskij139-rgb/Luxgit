@@ -1,0 +1,17 @@
+{
+  "vertex": "luxvisuals:core/sky_shader",
+  "fragment": "luxvisuals:core/sky_caustic",
+  "samplers": [],
+  "uniforms": [
+    { "name": "uResolution", "type": "float", "count": 2, "values": [1.0, 1.0] },
+    { "name": "uTime", "type": "float", "count": 1, "values": [0.0] },
+    { "name": "uFov", "type": "float", "count": 1, "values": [70.0] },
+    { "name": "uColor", "type": "float", "count": 3, "values": [1.0, 1.0, 1.0] },
+    { "name": "uAlpha", "type": "float", "count": 1, "values": [1.0] },
+    { "name": "uSpeed", "type": "float", "count": 1, "values": [1.0] },
+    { "name": "uScale", "type": "float", "count": 1, "values": [5.0] },
+    { "name": "uIntensity", "type": "float", "count": 1, "values": [0.01] },
+    { "name": "uCameraDir", "type": "float", "count": 2, "values": [0.0, 0.0] }
+  ],
+  "attributes": ["Position"]
+}

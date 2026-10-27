@@ -1,0 +1,343 @@
+{
+  "expectedSourceIconCount": 14,
+  "expectedNodeIds": [
+    "path[0]",
+    "path[2]+path[3]",
+    "path[5]",
+    "path[7]+path[8]+path[9]+path[10]",
+    "path[0]",
+    "path[2]+path[3]",
+    "path[0]",
+    "path[0]+path[1]",
+    "path[0]",
+    "path[2]",
+    "path[3]",
+    "path[4]",
+    "path[0]",
+    "path[0]+path[1]"
+  ],
+  "icons": [
+    {
+      "source": "watermark.svg",
+      "nodeId": "path[0]",
+      "pathSha256": "7c787dd0001f86a7c0bad4e4edf44cfee027800731e65074063c46e11eb2cd00",
+      "name": "watermark_logo",
+      "route": "msdf",
+      "viewBox": [
+        76.0,
+        76.0,
+        11.0001,
+        11.0
+      ],
+      "opticalBounds": [
+        76.0,
+        76.0,
+        11.0001,
+        11.0
+      ],
+      "codepoint": "E300",
+      "face": "HUD_ICONS",
+      "atlasJson": "main/resources/assets/phantom/fonts/hud_icons.json",
+      "atlasPng": "main/resources/assets/phantom/fonts/hud_icons.png"
+    },
+    {
+      "source": "watermark.svg",
+      "nodeId": "path[2]+path[3]",
+      "pathSha256": "ddbbe4582bee4da03e616f0bf2209062a77708b8e47084b73df5611e3d9ff7fa",
+      "name": "watermark_profile",
+      "route": "msdf",
+      "viewBox": [
+        209.0,
+        76.0,
+        9.167,
+        11.0
+      ],
+      "opticalBounds": [
+        209.0,
+        76.0,
+        9.167,
+        11.0
+      ],
+      "codepoint": "E301",
+      "face": "HUD_ICONS",
+      "atlasJson": "main/resources/assets/phantom/fonts/hud_icons.json",
+      "atlasPng": "main/resources/assets/phantom/fonts/hud_icons.png"
+    },
+    {
+      "source": "watermark.svg",
+      "nodeId": "path[5]",
+      "pathSha256": "7b1544f486cb3b23c55fa0d84d5365753e72c19a8a85185c713b8b1aa975e172",
+      "name": "watermark_monitor",
+      "route": "msdf",
+      "viewBox": [
+        294.167,
+        76.0,
+        11.0,
+        11.0
+      ],
+      "opticalBounds": [
+        294.167,
+        76.0,
+        11.0,
+        11.0
+      ],
+      "codepoint": "E302",
+      "face": "HUD_ICONS",
+      "atlasJson": "main/resources/assets/phantom/fonts/hud_icons.json",
+      "atlasPng": "main/resources/assets/phantom/fonts/hud_icons.png"
+    },
+    {
+      "source": "watermark.svg",
+      "nodeId": "path[7]+path[8]+path[9]+path[10]",
+      "pathSha256": "35cd59c5a6886a74e3a169dbf3b7923b46a72a2c76d016432152d8f938f00070",
+      "name": "watermark_ping",
+      "route": "msdf",
+      "viewBox": [
+        382.417,
+        75.25,
+        11.866,
+        12.5
+      ],
+      "opticalBounds": [
+        382.417,
+        75.25,
+        11.866,
+        12.5
+      ],
+      "codepoint": "E303",
+      "face": "HUD_ICONS",
+      "atlasJson": "main/resources/assets/phantom/fonts/hud_icons.json",
+      "atlasPng": "main/resources/assets/phantom/fonts/hud_icons.png"
+    },
+    {
+      "source": "hotkeys.svg",
+      "nodeId": "path[0]",
+      "pathSha256": "2d570a3275ab7a04374a74c044d86f9a9a812bf7479ff128406cb7de5282f1c3",
+      "name": "hotkeys_header",
+      "route": "msdf",
+      "viewBox": [
+        76.0,
+        75.5,
+        13.0,
+        13.0
+      ],
+      "opticalBounds": [
+        76.0,
+        75.5,
+        13.0,
+        13.0
+      ],
+      "codepoint": "E304",
+      "face": "HUD_ICONS",
+      "atlasJson": "main/resources/assets/phantom/fonts/hud_icons.json",
+      "atlasPng": "main/resources/assets/phantom/fonts/hud_icons.png"
+    },
+    {
+      "source": "hotkeys.svg",
+      "nodeId": "path[2]+path[3]",
+      "pathSha256": "6cc8d692c8dac072c4500f54b896624a8f911ce1b6b12053d87238937be9398f",
+      "name": "module",
+      "route": "msdf",
+      "viewBox": [
+        77.6713,
+        112.584,
+        9.66112,
+        11.57774
+      ],
+      "opticalBounds": [
+        77.6713,
+        112.584,
+        9.66112,
+        11.57774
+      ],
+      "codepoint": "E305",
+      "face": "HUD_ICONS",
+      "atlasJson": "main/resources/assets/phantom/fonts/hud_icons.json",
+      "atlasPng": "main/resources/assets/phantom/fonts/hud_icons.png"
+    },
+    {
+      "source": "effects.svg",
+      "nodeId": "path[0]",
+      "pathSha256": "10a4bced7e53315549a5df84fa31e6dcf4b306f558dcc3e876f0a0379adf7364",
+      "name": "effects_header",
+      "route": "msdf",
+      "viewBox": [
+        76.0,
+        75.5,
+        13.0,
+        13.0
+      ],
+      "opticalBounds": [
+        76.0,
+        75.5,
+        13.0,
+        13.0
+      ],
+      "codepoint": "E306",
+      "face": "HUD_ICONS",
+      "atlasJson": "main/resources/assets/phantom/fonts/hud_icons.json",
+      "atlasPng": "main/resources/assets/phantom/fonts/hud_icons.png"
+    },
+    {
+      "source": "cooldowns.svg",
+      "nodeId": "path[0]+path[1]",
+      "pathSha256": "19829493a5a82824a7ee74b8a7b73e1d3ee2ccb6394062b59ab6f237e581d2b8",
+      "name": "cooldowns_clock",
+      "route": "msdf",
+      "viewBox": [
+        75.25,
+        75.25,
+        13.5,
+        13.5
+      ],
+      "opticalBounds": [
+        75.25,
+        75.25,
+        13.5,
+        13.5
+      ],
+      "codepoint": "E307",
+      "face": "HUD_ICONS",
+      "atlasJson": "main/resources/assets/phantom/fonts/hud_icons.json",
+      "atlasPng": "main/resources/assets/phantom/fonts/hud_icons.png"
+    },
+    {
+      "source": "armor_horizontal.svg",
+      "nodeId": "path[0]",
+      "pathSha256": "74acec867043b63c0119451630a9ecb849ea6ddd6fe5ffe3e652202fb6b5988b",
+      "name": "armor_shield_vertical",
+      "route": "msdf",
+      "viewBox": [
+        78.0,
+        74.0,
+        10.0,
+        11.0001
+      ],
+      "opticalBounds": [
+        78.0,
+        74.0,
+        10.0,
+        11.0001
+      ],
+      "codepoint": "E308",
+      "face": "HUD_ICONS",
+      "atlasJson": "main/resources/assets/phantom/fonts/hud_icons.json",
+      "atlasPng": "main/resources/assets/phantom/fonts/hud_icons.png"
+    },
+    {
+      "source": "mediabar.svg",
+      "nodeId": "path[2]",
+      "pathSha256": "146cce61f5fe6437f656c1cb581c099f64c566e6d4f143f338dfdfe74bcbb69c",
+      "name": "media_previous",
+      "route": "msdf",
+      "viewBox": [
+        177.0,
+        94.0,
+        9.99982,
+        7.00002
+      ],
+      "opticalBounds": [
+        177.0,
+        94.0,
+        9.99982,
+        7.00002
+      ],
+      "codepoint": "E309",
+      "face": "HUD_ICONS",
+      "atlasJson": "main/resources/assets/phantom/fonts/hud_icons.json",
+      "atlasPng": "main/resources/assets/phantom/fonts/hud_icons.png"
+    },
+    {
+      "source": "mediabar.svg",
+      "nodeId": "path[3]",
+      "pathSha256": "c5d1f2f0f4828ea4fda2bb849845f7e0362ecedafda3477ae2afe5555897071e",
+      "name": "media_play",
+      "route": "msdf",
+      "viewBox": [
+        191.0,
+        92.5,
+        9.49975,
+        9.9999
+      ],
+      "opticalBounds": [
+        191.0,
+        92.5,
+        9.49975,
+        9.9999
+      ],
+      "codepoint": "E30A",
+      "face": "HUD_ICONS",
+      "atlasJson": "main/resources/assets/phantom/fonts/hud_icons.json",
+      "atlasPng": "main/resources/assets/phantom/fonts/hud_icons.png"
+    },
+    {
+      "source": "mediabar.svg",
+      "nodeId": "path[4]",
+      "pathSha256": "9e8b8ea02b71c678e8506e4fb6addc11348fa0d7f8055a6343bc49b4676eb119",
+      "name": "media_next",
+      "route": "msdf",
+      "viewBox": [
+        204.5,
+        93.5001,
+        11.999,
+        8.00007
+      ],
+      "opticalBounds": [
+        204.5,
+        93.5001,
+        11.999,
+        8.00007
+      ],
+      "codepoint": "E30B",
+      "face": "HUD_ICONS",
+      "atlasJson": "main/resources/assets/phantom/fonts/hud_icons.json",
+      "atlasPng": "main/resources/assets/phantom/fonts/hud_icons.png"
+    },
+    {
+      "source": "armor_vertical.svg",
+      "nodeId": "path[0]",
+      "pathSha256": "8c9283f8ffd6e1a5f495a3c6f834e4c40a7001d0703a87d177681ffc0bf7d1d1",
+      "name": "armor_shield_horizontal",
+      "route": "msdf",
+      "viewBox": [
+        76.0,
+        75.5,
+        10.0,
+        11.0001
+      ],
+      "opticalBounds": [
+        76.0,
+        75.5,
+        10.0,
+        11.0001
+      ],
+      "codepoint": "E30C",
+      "face": "HUD_ICONS",
+      "atlasJson": "main/resources/assets/phantom/fonts/hud_icons.json",
+      "atlasPng": "main/resources/assets/phantom/fonts/hud_icons.png"
+    },
+    {
+      "source": "notifications.svg",
+      "nodeId": "path[0]+path[1]",
+      "pathSha256": "2fe6f39288216b215e47292205bdeab46e9d3662d82bb00a338f5533039e0ab8",
+      "name": "notification_module",
+      "route": "msdf",
+      "viewBox": [
+        75.375,
+        75.375,
+        10.525,
+        12.25
+      ],
+      "opticalBounds": [
+        75.375,
+        75.375,
+        10.525,
+        12.25
+      ],
+      "codepoint": "E30D",
+      "face": "HUD_ICONS",
+      "atlasJson": "main/resources/assets/phantom/fonts/hud_icons.json",
+      "atlasPng": "main/resources/assets/phantom/fonts/hud_icons.png"
+    }
+  ]
+}

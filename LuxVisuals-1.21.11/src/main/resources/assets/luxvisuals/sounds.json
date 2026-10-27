@@ -1,0 +1,132 @@
+{
+  "nursultan_off": {
+    "sounds": [
+      "luxvisuals:nursultan_off"
+    ]
+  },
+  "nursultan_on": {
+    "sounds": [
+      "luxvisuals:nursultan_on"
+    ]
+  },
+  "celestial_off": {
+    "sounds": [
+      "luxvisuals:celestial_off"
+    ]
+  },
+  "celestial_on": {
+    "sounds": [
+      "luxvisuals:celestial_on"
+    ]
+  },
+  "smooth_off": {
+    "sounds": [
+      "luxvisuals:smooth_off"
+    ]
+  },
+  "smooth_on": {
+    "sounds": [
+      "luxvisuals:smooth_on"
+    ]
+  },
+  "akrien_on": {
+    "sounds": [
+      "luxvisuals:akrien_on"
+    ]
+  },
+  "akrien_off": {
+    "sounds": [
+      "luxvisuals:akrien_off"
+    ]
+  },
+  "tech_on": {
+    "sounds": [
+      "luxvisuals:tech_on"
+    ]
+  },
+  "tech_off": {
+    "sounds": [
+      "luxvisuals:tech_off"
+    ]
+  },
+  "blop_on": {
+    "sounds": [
+      "luxvisuals:blop_on"
+    ]
+  },
+  "blop_off": {
+    "sounds": [
+      "luxvisuals:blop_off"
+    ]
+  },
+  "guiopen": {
+    "sounds": [
+      "luxvisuals:guiopen"
+    ]
+  },
+  "select": {
+    "sounds": [
+      "luxvisuals:select"
+    ]
+  },
+  "hitsound_uwu": {
+    "sounds": [
+      "luxvisuals:hitsound_uwu"
+    ]
+  },
+  "hitsound_bonk1": {
+    "sounds": [
+      "luxvisuals:hitsound_bonk1"
+    ]
+  },
+  "hitsound_bonk2": {
+    "sounds": [
+      "luxvisuals:hitsound_bonk2"
+    ]
+  },
+  "hitsound_signal": {
+    "sounds": [
+      "luxvisuals:hitsound_signal"
+    ]
+  },
+  "hitsound_screenshot": {
+    "sounds": [
+      "luxvisuals:hitsound_screenshot"
+    ]
+  },
+  "hitsound_screenshot2": {
+    "sounds": [
+      "luxvisuals:hitsound_screenshot2"
+    ]
+  },
+  "hitsound_oplata": {
+    "sounds": [
+      "luxvisuals:hitsound_oplata"
+    ]
+  },
+  "hitsound_aura": {
+    "sounds": [
+      "luxvisuals:hitsound_aura"
+    ]
+  },
+  "killsound_rampage": {
+    "sounds": [
+      "luxvisuals:killsound_rampage"
+    ]
+  },
+  "telegram_soundin": {
+    "sounds": [
+      "luxvisuals:telegram_soundin"
+    ]
+  },
+  "description_key": {
+    "sounds": [
+      { "name": "luxvisuals:description_key", "preload": true }
+    ]
+  },
+  "sound_17216": {
+    "sounds": [
+      "luxvisuals:sound_17216"
+    ]
+  }
+}

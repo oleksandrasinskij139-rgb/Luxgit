@@ -1,0 +1,1739 @@
+{
+ "cosmetics": [
+  {
+   "id": 0,
+   "name": "Leopard Cape",
+   "type": "cape"
+  },
+  {
+   "id": 1,
+   "name": "Hood Cape",
+   "type": "cape"
+  },
+  {
+   "id": 2,
+   "name": "Pulse Cape",
+   "type": "cape"
+  },
+  {
+   "id": 3,
+   "name": "Akvi4 Cape II",
+   "type": "cape"
+  },
+  {
+   "id": 4,
+   "name": "Bro9i Cape III",
+   "type": "cape"
+  },
+  {
+   "id": 5,
+   "name": "Bro9i Cape II",
+   "type": "cape"
+  },
+  {
+   "id": 6,
+   "name": "Fluger Cape II",
+   "type": "cape"
+  },
+  {
+   "id": 7,
+   "name": "Fluger Cape III",
+   "type": "cape"
+  },
+  {
+   "id": 8,
+   "name": "Fluger Cape V",
+   "type": "cape"
+  },
+  {
+   "id": 9,
+   "name": "Bro9i Cape",
+   "type": "cape"
+  },
+  {
+   "id": 10,
+   "name": "Potion Cape",
+   "type": "cape"
+  },
+  {
+   "id": 11,
+   "name": "Diamond Sword Cape",
+   "type": "cape",
+   "capeAnimation": {
+    "frameCount": 11,
+    "frameWidth": 44,
+    "frameHeight": 34,
+    "frameTime": 3
+   }
+  },
+  {
+   "id": 12,
+   "name": "Glitch Cape",
+   "type": "cape",
+   "capeAnimation": {
+    "frameCount": 14,
+    "frameWidth": 176,
+    "frameHeight": 136,
+    "frameTime": 1
+   }
+  },
+  {
+   "id": 13,
+   "name": "Sweatgod Cape",
+   "type": "cape",
+   "capeAnimation": {
+    "frameCount": 5,
+    "frameWidth": 176,
+    "frameHeight": 136,
+    "frameTime": 4
+   }
+  },
+  {
+   "id": 14,
+   "name": "Hornet Wings",
+   "type": "wings",
+   "pos": 1,
+   "scale": 1,
+   "x": 0,
+   "y": -1.2,
+   "z": 0,
+   "yaw": 0,
+   "pitch": 0,
+   "roll": 0
+  },
+  {
+   "id": 15,
+   "name": "Dark Wings",
+   "type": "wings",
+   "pos": 1,
+   "scale": 0.9,
+   "x": 0,
+   "y": -1.05,
+   "z": 0.05,
+   "yaw": 0,
+   "pitch": 0,
+   "roll": 0
+  },
+  {
+   "id": 16,
+   "name": "Ghoul Wings",
+   "type": "wings",
+   "pos": 1,
+   "scale": 0.6,
+   "x": 0,
+   "y": -0.65,
+   "z": 0,
+   "yaw": 0,
+   "pitch": 0,
+   "roll": 0
+  },
+  {
+   "id": 17,
+   "name": "Rocker Wings",
+   "type": "wings",
+   "pos": 1,
+   "scale": 0.9,
+   "x": 0,
+   "y": -1.05,
+   "z": 0,
+   "yaw": 0,
+   "pitch": 0,
+   "roll": 0
+  },
+  {
+   "id": 18,
+   "name": "Frost Wings",
+   "type": "wings",
+   "pos": 1,
+   "scale": 0.9,
+   "x": 0,
+   "y": -1.05,
+   "z": 0,
+   "yaw": 0,
+   "pitch": 0,
+   "roll": 0,
+   "textureAnimation": {
+    "frameCount": 10,
+    "frameHeight": 32,
+    "totalHeight": 320,
+    "frameTime": 3
+   }
+  },
+  {
+   "id": 19,
+   "name": "Chain Wings",
+   "type": "wings",
+   "pos": 1,
+   "scale": 1.1,
+   "x": 0,
+   "y": -1.3,
+   "z": 0.15,
+   "yaw": 0,
+   "pitch": 0,
+   "roll": 0
+  },
+  {
+   "id": 20,
+   "name": "Trident",
+   "type": "wings",
+   "pos": 1,
+   "scale": 0.9,
+   "x": 0,
+   "y": -1.05,
+   "z": 0.2,
+   "yaw": 0,
+   "pitch": 0,
+   "roll": 0
+  },
+  {
+   "id": 21,
+   "name": "Easter Wings",
+   "type": "wings",
+   "pos": 1,
+   "scale": 0.9,
+   "x": 0,
+   "y": -1.05,
+   "z": 0,
+   "yaw": 0,
+   "pitch": 0,
+   "roll": 0
+  },
+  {
+   "id": 22,
+   "name": "Angel Wings",
+   "type": "wings",
+   "pos": 1,
+   "scale": 0.9,
+   "x": 0,
+   "y": -1.05,
+   "z": 0,
+   "yaw": 0,
+   "pitch": 0,
+   "roll": 0
+  },
+  {
+   "id": 23,
+   "name": "Baby Dragon Wings",
+   "type": "wings",
+   "pos": 1,
+   "scale": 1,
+   "x": 0,
+   "y": -1.05,
+   "z": 0,
+   "yaw": 0,
+   "pitch": 0,
+   "roll": 0
+  },
+  {
+   "id": 24,
+   "name": "Blue Dragon Wings",
+   "type": "wings",
+   "pos": 1,
+   "scale": 0.9,
+   "x": 0,
+   "y": -1.05,
+   "z": 0,
+   "yaw": 0,
+   "pitch": 0,
+   "roll": 0
+  },
+  {
+   "id": 25,
+   "name": "Spider Wings",
+   "type": "wings",
+   "pos": 1,
+   "scale": 1,
+   "x": 0,
+   "y": 0,
+   "z": 0,
+   "yaw": 0,
+   "pitch": 0,
+   "roll": 0
+  },
+  {
+   "id": 26,
+   "name": "Vulcano Wings",
+   "type": "wings",
+   "pos": 1,
+   "scale": 1,
+   "x": 0,
+   "y": 0,
+   "z": 0,
+   "yaw": 0,
+   "pitch": 0,
+   "roll": 0
+  },
+  {
+   "id": 27,
+   "name": "Katana",
+   "type": "back",
+   "pos": 1,
+   "scale": 1,
+   "x": 0,
+   "y": -1.2,
+   "z": 0,
+   "yaw": 0,
+   "pitch": 0,
+   "roll": 0
+  },
+  {
+   "id": 28,
+   "name": "Frog Backpack",
+   "type": "back",
+   "pos": 1,
+   "scale": 1.55,
+   "x": 0,
+   "y": -0.6,
+   "z": 0.331,
+   "yaw": 0,
+   "pitch": 0,
+   "roll": 0
+  },
+  {
+   "id": 29,
+   "name": "Red Backpack",
+   "type": "back",
+   "pos": 1,
+   "scale": 1,
+   "x": 0,
+   "y": -0.45,
+   "z": 0,
+   "yaw": 0,
+   "pitch": 0,
+   "roll": 0
+  },
+  {
+   "id": 30,
+   "name": "Black Backpack",
+   "type": "back",
+   "pos": 1,
+   "scale": 1,
+   "x": 0,
+   "y": -0.45,
+   "z": 0,
+   "yaw": 0,
+   "pitch": 0,
+   "roll": 0
+  },
+  {
+   "id": 31,
+   "name": "Camo Backpack",
+   "type": "back",
+   "pos": 1,
+   "scale": 1,
+   "x": 0,
+   "y": -0.45,
+   "z": 0,
+   "yaw": 0,
+   "pitch": 0,
+   "roll": 0
+  },
+  {
+   "id": 32,
+   "name": "Striped Backpack",
+   "type": "back",
+   "pos": 1,
+   "scale": 1,
+   "x": 0,
+   "y": -0.45,
+   "z": 0,
+   "yaw": 0,
+   "pitch": 0,
+   "roll": 0
+  },
+  {
+   "id": 33,
+   "name": "Crimson Backpack",
+   "type": "back",
+   "pos": 1,
+   "scale": 1,
+   "x": 0,
+   "y": -0.45,
+   "z": 0,
+   "yaw": 0,
+   "pitch": 0,
+   "roll": 0
+  },
+  {
+   "id": 34,
+   "name": "Graffiti Backpack",
+   "type": "back",
+   "pos": 1,
+   "scale": 1,
+   "x": 0,
+   "y": -0.45,
+   "z": 0,
+   "yaw": 0,
+   "pitch": 0,
+   "roll": 0
+  },
+  {
+   "id": 35,
+   "name": "Sport Backpack",
+   "type": "back",
+   "pos": 1,
+   "scale": 1,
+   "x": 0,
+   "y": -0.45,
+   "z": 0,
+   "yaw": 0,
+   "pitch": 0,
+   "roll": 0
+  },
+  {
+   "id": 36,
+   "name": "Tactical Backpack",
+   "type": "back",
+   "pos": 1,
+   "scale": 1,
+   "x": 0,
+   "y": -0.45,
+   "z": 0,
+   "yaw": 0,
+   "pitch": 0,
+   "roll": 0
+  },
+  {
+   "id": 37,
+   "name": "Leather Backpack",
+   "type": "back",
+   "pos": 1,
+   "scale": 1,
+   "x": 0,
+   "y": -0.45,
+   "z": 0,
+   "yaw": 0,
+   "pitch": 0,
+   "roll": 0
+  },
+  {
+   "id": 38,
+   "name": "Creeper Pet",
+   "type": "pet",
+   "pos": 1,
+   "scale": 0.8,
+   "x": 1.175,
+   "y": 0.2375,
+   "z": 0,
+   "yaw": 0,
+   "pitch": 0,
+   "roll": 0
+  },
+  {
+   "id": 39,
+   "name": "Ghost Pet",
+   "type": "pet",
+   "pos": 1,
+   "scale": 0.8,
+   "x": 1.038721,
+   "y": 0.2375,
+   "z": 0,
+   "yaw": 0,
+   "pitch": 0,
+   "roll": 0
+  },
+  {
+   "id": 40,
+   "name": "Shadow Pet",
+   "type": "pet",
+   "pos": 1,
+   "scale": 0.8,
+   "x": 1.1,
+   "y": 0.2375,
+   "z": 0,
+   "yaw": 0,
+   "pitch": 0,
+   "roll": 0
+  },
+  {
+   "id": 41,
+   "name": "Leopard Pet",
+   "type": "pet",
+   "pos": 1,
+   "scale": 1,
+   "x": 0,
+   "y": -1.2,
+   "z": 0,
+   "yaw": 0,
+   "pitch": 0,
+   "roll": 0
+  },
+  {
+   "id": 42,
+   "name": "Cake Pet",
+   "type": "pet",
+   "pos": 1,
+   "scale": 0.7,
+   "x": 0.85,
+   "y": 0.25,
+   "z": 0,
+   "yaw": 0,
+   "pitch": 0,
+   "roll": 0
+  },
+  {
+   "id": 43,
+   "name": "Bee Pet",
+   "type": "pet",
+   "pos": 1,
+   "scale": 1,
+   "x": 0,
+   "y": -1,
+   "z": 0,
+   "yaw": 0,
+   "pitch": 0,
+   "roll": 0
+  },
+  {
+   "id": 44,
+   "name": "Penguin Pet",
+   "type": "pet",
+   "pos": 1,
+   "scale": 1,
+   "x": 0,
+   "y": -1.2,
+   "z": 0,
+   "yaw": 0,
+   "pitch": 0,
+   "roll": 0
+  },
+  {
+   "id": 45,
+   "name": "Page Pet",
+   "type": "pet",
+   "pos": 1,
+   "scale": 0.45,
+   "x": 0.65,
+   "y": 0.45,
+   "z": 0,
+   "yaw": 0,
+   "pitch": 0,
+   "roll": 0
+  },
+  {
+   "id": 46,
+   "name": "Diamond Pet",
+   "type": "pet",
+   "pos": 1,
+   "scale": 0.6,
+   "x": 0.65,
+   "y": 0.35,
+   "z": 0,
+   "yaw": 0,
+   "pitch": 0,
+   "roll": 0,
+   "textureAnimation": {
+    "frameCount": 9,
+    "frameHeight": 16,
+    "totalHeight": 144,
+    "frameTime": 4
+   }
+  },
+  {
+   "id": 47,
+   "name": "Radish Pet",
+   "type": "pet",
+   "pos": 1,
+   "scale": 1,
+   "x": 0,
+   "y": 0,
+   "z": 0,
+   "yaw": 0,
+   "pitch": 0,
+   "roll": 0
+  },
+  {
+   "id": 48,
+   "name": "Demon Pet",
+   "type": "pet",
+   "pos": 1,
+   "scale": 1,
+   "x": 0,
+   "y": -0.4,
+   "z": 0,
+   "yaw": 0,
+   "pitch": 0,
+   "roll": 0
+  },
+  {
+   "id": 49,
+   "name": "Angel Pet",
+   "type": "pet",
+   "pos": 1,
+   "scale": 1,
+   "x": 0,
+   "y": -0.4,
+   "z": 0,
+   "yaw": 0,
+   "pitch": 0,
+   "roll": 0
+  },
+  {
+   "id": 50,
+   "name": "Obsidian Hat",
+   "type": "hat",
+   "pos": 2,
+   "scale": 1,
+   "x": 0,
+   "y": 0.35,
+   "z": 0,
+   "yaw": 0,
+   "pitch": 0,
+   "roll": 0
+  },
+  {
+   "id": 51,
+   "name": "Halo",
+   "type": "hat",
+   "pos": 2,
+   "scale": 1,
+   "x": 0,
+   "y": -1.5,
+   "z": 0,
+   "yaw": 0,
+   "pitch": 0,
+   "roll": 0
+  },
+  {
+   "id": 52,
+   "name": "Leaf Hat",
+   "type": "hat",
+   "pos": 2,
+   "scale": 1,
+   "x": 0,
+   "y": -1.45,
+   "z": 0,
+   "yaw": 0,
+   "pitch": 0,
+   "roll": 0
+  },
+  {
+   "id": 53,
+   "name": "Frog Head",
+   "type": "hat",
+   "pos": 2,
+   "scale": 1.443,
+   "x": 0,
+   "y": -0.294,
+   "z": 0.094,
+   "yaw": 0,
+   "pitch": 0,
+   "roll": 0
+  },
+  {
+   "id": 54,
+   "name": "Bandana Mask",
+   "type": "hat",
+   "pos": 2,
+   "scale": 0.95,
+   "x": 0,
+   "y": 0,
+   "z": 0,
+   "yaw": 0,
+   "pitch": 0,
+   "roll": 0
+  },
+  {
+   "id": 55,
+   "name": "Penguin Hat",
+   "type": "hat",
+   "pos": 2,
+   "scale": 1,
+   "x": 0,
+   "y": 0.5,
+   "z": 0,
+   "yaw": 0,
+   "pitch": 0,
+   "roll": 0
+  },
+  {
+   "id": 56,
+   "name": "Sakura Hat",
+   "type": "hat",
+   "pos": 2,
+   "scale": 1,
+   "x": 0,
+   "y": 0.4,
+   "z": 0,
+   "yaw": 0,
+   "pitch": 0,
+   "roll": 0
+  },
+  {
+   "id": 57,
+   "name": "Bear Hat",
+   "type": "hat",
+   "pos": 2,
+   "scale": 1.443,
+   "x": 0,
+   "y": 0.056,
+   "z": 0.094,
+   "yaw": 0,
+   "pitch": 0,
+   "roll": 0
+  },
+  {
+   "id": 58,
+   "name": "Armadillo Hat",
+   "type": "hat",
+   "pos": 2,
+   "scale": 1,
+   "x": 0,
+   "y": 0,
+   "z": 0,
+   "yaw": 0,
+   "pitch": 0,
+   "roll": 0,
+   "textureAnimation": {
+    "frameCount": 30,
+    "frameHeight": 64,
+    "totalHeight": 1920,
+    "frameTime": 3
+   }
+  },
+  {
+   "id": 59,
+   "name": "Camel Hat",
+   "type": "hat",
+   "pos": 2,
+   "scale": 1,
+   "x": 0,
+   "y": 0,
+   "z": 0,
+   "yaw": 0,
+   "pitch": 0,
+   "roll": 0,
+   "textureAnimation": {
+    "frameCount": 15,
+    "frameHeight": 64,
+    "totalHeight": 960,
+    "frameTime": 3
+   }
+  },
+  {
+   "id": 60,
+   "name": "Chicken Hat",
+   "type": "hat",
+   "pos": 2,
+   "scale": 1,
+   "x": 0,
+   "y": 0,
+   "z": 0,
+   "yaw": 0,
+   "pitch": 0,
+   "roll": 0
+  },
+  {
+   "id": 61,
+   "name": "Frog Hat",
+   "type": "hat",
+   "pos": 2,
+   "scale": 1,
+   "x": 0,
+   "y": -0.0625,
+   "z": 0,
+   "yaw": 0,
+   "pitch": 0,
+   "roll": 0,
+   "textureAnimation": {
+    "frameCount": 13,
+    "frameHeight": 64,
+    "totalHeight": 832,
+    "frameTime": 3
+   }
+  },
+  {
+   "id": 62,
+   "name": "Sheep Hat",
+   "type": "hat",
+   "pos": 2,
+   "scale": 1,
+   "x": 0,
+   "y": 0,
+   "z": 0,
+   "yaw": 0,
+   "pitch": 0,
+   "roll": 0
+  },
+  {
+   "id": 63,
+   "name": "Элитры - 10 Planet Minecraft",
+   "type": "elytra"
+  },
+  {
+   "id": 64,
+   "name": "Элитры - Acacia",
+   "type": "elytra"
+  },
+  {
+   "id": 65,
+   "name": "Элитры - Astroidbuster",
+   "type": "elytra"
+  },
+  {
+   "id": 66,
+   "name": "Элитры - Bacon",
+   "type": "elytra"
+  },
+  {
+   "id": 67,
+   "name": "Элитры - Bat Wings",
+   "type": "elytra"
+  },
+  {
+   "id": 68,
+   "name": "Элитры - Bee Wings",
+   "type": "elytra"
+  },
+  {
+   "id": 69,
+   "name": "Элитры - Birch",
+   "type": "elytra"
+  },
+  {
+   "id": 70,
+   "name": "Элитры - Birthday",
+   "type": "elytra"
+  },
+  {
+   "id": 71,
+   "name": "Элитры - Black",
+   "type": "elytra"
+  },
+  {
+   "id": 72,
+   "name": "Элитры - Black Leather",
+   "type": "elytra"
+  },
+  {
+   "id": 73,
+   "name": "Элитры - Blue",
+   "type": "elytra"
+  },
+  {
+   "id": 74,
+   "name": "Элитры - Blue Leather",
+   "type": "elytra"
+  },
+  {
+   "id": 75,
+   "name": "Элитры - Blue Moon",
+   "type": "elytra"
+  },
+  {
+   "id": 76,
+   "name": "Элитры - Blue Parrot Wings",
+   "type": "elytra"
+  },
+  {
+   "id": 77,
+   "name": "Элитры - Brightbeam",
+   "type": "elytra"
+  },
+  {
+   "id": 78,
+   "name": "Элитры - Brown Block",
+   "type": "elytra"
+  },
+  {
+   "id": 79,
+   "name": "Элитры - Brown",
+   "type": "elytra"
+  },
+  {
+   "id": 80,
+   "name": "Элитры - Brown Leather",
+   "type": "elytra"
+  },
+  {
+   "id": 81,
+   "name": "Элитры - Chain",
+   "type": "elytra"
+  },
+  {
+   "id": 82,
+   "name": "Элитры - Chicken Wings",
+   "type": "elytra"
+  },
+  {
+   "id": 83,
+   "name": "Элитры - Christmas",
+   "type": "elytra"
+  },
+  {
+   "id": 84,
+   "name": "Элитры - Cobalt",
+   "type": "elytra"
+  },
+  {
+   "id": 85,
+   "name": "Элитры - Crowdin Translator",
+   "type": "elytra"
+  },
+  {
+   "id": 86,
+   "name": "Элитры - Cyan",
+   "type": "elytra"
+  },
+  {
+   "id": 87,
+   "name": "Элитры - Cyan Leather",
+   "type": "elytra"
+  },
+  {
+   "id": 88,
+   "name": "Элитры - Cyan Parrot Wings",
+   "type": "elytra"
+  },
+  {
+   "id": 89,
+   "name": "Элитры - Danny Bstyles",
+   "type": "elytra"
+  },
+  {
+   "id": 90,
+   "name": "Элитры - Dark Oak",
+   "type": "elytra"
+  },
+  {
+   "id": 91,
+   "name": "Элитры - Day Of The Dead",
+   "type": "elytra"
+  },
+  {
+   "id": 92,
+   "name": "Элитры - Diamond",
+   "type": "elytra"
+  },
+  {
+   "id": 93,
+   "name": "Элитры - Dragon Wings",
+   "type": "elytra"
+  },
+  {
+   "id": 94,
+   "name": "Элитры - Easter",
+   "type": "elytra"
+  },
+  {
+   "id": 95,
+   "name": "Элитры - Enchanter",
+   "type": "elytra"
+  },
+  {
+   "id": 96,
+   "name": "Элитры - Freshbeast",
+   "type": "elytra"
+  },
+  {
+   "id": 97,
+   "name": "Элитры - Gold",
+   "type": "elytra"
+  },
+  {
+   "id": 98,
+   "name": "Элитры - Gray",
+   "type": "elytra"
+  },
+  {
+   "id": 99,
+   "name": "Элитры - Gray Leather",
+   "type": "elytra"
+  },
+  {
+   "id": 100,
+   "name": "Элитры - Gray Parrot Wings",
+   "type": "elytra"
+  },
+  {
+   "id": 101,
+   "name": "Элитры - Green",
+   "type": "elytra"
+  },
+  {
+   "id": 102,
+   "name": "Элитры - Green Leather",
+   "type": "elytra"
+  },
+  {
+   "id": 103,
+   "name": "Элитры - Green Lightning",
+   "type": "elytra"
+  },
+  {
+   "id": 104,
+   "name": "Элитры - Green Parrot Wings",
+   "type": "elytra"
+  },
+  {
+   "id": 105,
+   "name": "Элитры - Halloween",
+   "type": "elytra"
+  },
+  {
+   "id": 106,
+   "name": "Элитры - Hammer",
+   "type": "elytra"
+  },
+  {
+   "id": 107,
+   "name": "Элитры - Hanukkah",
+   "type": "elytra"
+  },
+  {
+   "id": 108,
+   "name": "Элитры - Hero",
+   "type": "elytra"
+  },
+  {
+   "id": 109,
+   "name": "Элитры - Iceologer",
+   "type": "elytra"
+  },
+  {
+   "id": 110,
+   "name": "Элитры - Infinity Ores",
+   "type": "elytra"
+  },
+  {
+   "id": 111,
+   "name": "Элитры - Inverted Brightbeam",
+   "type": "elytra"
+  },
+  {
+   "id": 112,
+   "name": "Элитры - Inverted Freshbeast",
+   "type": "elytra"
+  },
+  {
+   "id": 113,
+   "name": "Элитры - Inverted Starcamp",
+   "type": "elytra"
+  },
+  {
+   "id": 114,
+   "name": "Элитры - Iron",
+   "type": "elytra"
+  },
+  {
+   "id": 115,
+   "name": "Элитры - Iron Golem",
+   "type": "elytra"
+  },
+  {
+   "id": 116,
+   "name": "Элитры - Julian Clark",
+   "type": "elytra"
+  },
+  {
+   "id": 117,
+   "name": "Элитры - Jungle",
+   "type": "elytra"
+  },
+  {
+   "id": 118,
+   "name": "Элитры - Leather",
+   "type": "elytra"
+  },
+  {
+   "id": 119,
+   "name": "Элитры - Light Blue",
+   "type": "elytra"
+  },
+  {
+   "id": 120,
+   "name": "Элитры - Light Blue Leather",
+   "type": "elytra"
+  },
+  {
+   "id": 121,
+   "name": "Элитры - Light Gray",
+   "type": "elytra"
+  },
+  {
+   "id": 122,
+   "name": "Элитры - Light Gray Leather",
+   "type": "elytra"
+  },
+  {
+   "id": 123,
+   "name": "Элитры - Lime",
+   "type": "elytra"
+  },
+  {
+   "id": 124,
+   "name": "Элитры - Lime Leather",
+   "type": "elytra"
+  },
+  {
+   "id": 125,
+   "name": "Элитры - Magenta",
+   "type": "elytra"
+  },
+  {
+   "id": 126,
+   "name": "Элитры - Magenta Leather",
+   "type": "elytra"
+  },
+  {
+   "id": 127,
+   "name": "Элитры - Map Maker",
+   "type": "elytra"
+  },
+  {
+   "id": 128,
+   "name": "Элитры - Membrane",
+   "type": "elytra"
+  },
+  {
+   "id": 129,
+   "name": "Элитры - Millionth Customer",
+   "type": "elytra"
+  },
+  {
+   "id": 130,
+   "name": "Элитры - Minecon 2011",
+   "type": "elytra"
+  },
+  {
+   "id": 131,
+   "name": "Элитры - Minecon 2012",
+   "type": "elytra"
+  },
+  {
+   "id": 132,
+   "name": "Элитры - Minecon 2013",
+   "type": "elytra"
+  },
+  {
+   "id": 133,
+   "name": "Элитры - Minecon 2015",
+   "type": "elytra"
+  },
+  {
+   "id": 134,
+   "name": "Элитры - Minecon 2016",
+   "type": "elytra"
+  },
+  {
+   "id": 135,
+   "name": "Элитры - Minecon 2019",
+   "type": "elytra"
+  },
+  {
+   "id": 136,
+   "name": "Элитры - Mojang",
+   "type": "elytra"
+  },
+  {
+   "id": 137,
+   "name": "Элитры - Mojira Moderator",
+   "type": "elytra"
+  },
+  {
+   "id": 138,
+   "name": "Элитры - Mr Messiah",
+   "type": "elytra"
+  },
+  {
+   "id": 139,
+   "name": "Элитры - Nameless One",
+   "type": "elytra"
+  },
+  {
+   "id": 140,
+   "name": "Элитры - Necromancer",
+   "type": "elytra"
+  },
+  {
+   "id": 141,
+   "name": "Элитры - Netherite",
+   "type": "elytra"
+  },
+  {
+   "id": 142,
+   "name": "Элитры - New Year",
+   "type": "elytra"
+  },
+  {
+   "id": 143,
+   "name": "Элитры - Oak",
+   "type": "elytra"
+  },
+  {
+   "id": 144,
+   "name": "Элитры - Old Mojang",
+   "type": "elytra"
+  },
+  {
+   "id": 145,
+   "name": "Элитры - Orange",
+   "type": "elytra"
+  },
+  {
+   "id": 146,
+   "name": "Элитры - Orange Leather",
+   "type": "elytra"
+  },
+  {
+   "id": 147,
+   "name": "Элитры - Pancake",
+   "type": "elytra"
+  },
+  {
+   "id": 148,
+   "name": "Элитры - Phantom Wings",
+   "type": "elytra"
+  },
+  {
+   "id": 149,
+   "name": "Элитры - Pink",
+   "type": "elytra"
+  },
+  {
+   "id": 150,
+   "name": "Элитры - Pink Leather",
+   "type": "elytra"
+  },
+  {
+   "id": 151,
+   "name": "Элитры - Prismarine",
+   "type": "elytra"
+  },
+  {
+   "id": 152,
+   "name": "Элитры - Purple",
+   "type": "elytra"
+  },
+  {
+   "id": 153,
+   "name": "Элитры - Purple Leather",
+   "type": "elytra"
+  },
+  {
+   "id": 154,
+   "name": "Элитры - Red Dragon Wings",
+   "type": "elytra"
+  },
+  {
+   "id": 155,
+   "name": "Элитры - Red",
+   "type": "elytra"
+  },
+  {
+   "id": 156,
+   "name": "Элитры - Red Leather",
+   "type": "elytra"
+  },
+  {
+   "id": 157,
+   "name": "Элитры - Red Parrot Wings",
+   "type": "elytra"
+  },
+  {
+   "id": 158,
+   "name": "Элитры - Royal",
+   "type": "elytra"
+  },
+  {
+   "id": 159,
+   "name": "Элитры - Scrolls",
+   "type": "elytra"
+  },
+  {
+   "id": 160,
+   "name": "Элитры - Shulker",
+   "type": "elytra"
+  },
+  {
+   "id": 161,
+   "name": "Элитры - Sinister",
+   "type": "elytra"
+  },
+  {
+   "id": 162,
+   "name": "Элитры - Spooky",
+   "type": "elytra"
+  },
+  {
+   "id": 163,
+   "name": "Элитры - Spruce",
+   "type": "elytra"
+  },
+  {
+   "id": 164,
+   "name": "Элитры - Starcamp",
+   "type": "elytra"
+  },
+  {
+   "id": 165,
+   "name": "Элитры - Stylized",
+   "type": "elytra"
+  },
+  {
+   "id": 166,
+   "name": "Элитры - Stylized Membrane",
+   "type": "elytra"
+  },
+  {
+   "id": 167,
+   "name": "Элитры - Thermal Flight Armor 1541",
+   "type": "elytra"
+  },
+  {
+   "id": 168,
+   "name": "Элитры - Turtle",
+   "type": "elytra"
+  },
+  {
+   "id": 169,
+   "name": "Элитры - Valentine",
+   "type": "elytra"
+  },
+  {
+   "id": 170,
+   "name": "Элитры - Vanilla Extract",
+   "type": "elytra"
+  },
+  {
+   "id": 171,
+   "name": "Элитры - Veteran",
+   "type": "elytra"
+  },
+  {
+   "id": 172,
+   "name": "Элитры - Vex Wings",
+   "type": "elytra"
+  },
+  {
+   "id": 173,
+   "name": "Элитры - White",
+   "type": "elytra"
+  },
+  {
+   "id": 174,
+   "name": "Элитры - White Leather",
+   "type": "elytra"
+  },
+  {
+   "id": 175,
+   "name": "Элитры - Wind Caller",
+   "type": "elytra"
+  },
+  {
+   "id": 176,
+   "name": "Элитры - Yellow",
+   "type": "elytra"
+  },
+  {
+   "id": 177,
+   "name": "Элитры - Yellow Leather",
+   "type": "elytra"
+  },
+  {
+   "id": 178,
+   "name": "Amethyst Greatblade",
+   "type": "sword"
+  },
+  {
+   "id": 179,
+   "name": "Amethyst Greatpick",
+   "type": "sword"
+  },
+  {
+   "id": 180,
+   "name": "Ancient Greatslab",
+   "type": "sword"
+  },
+  {
+   "id": 181,
+   "name": "Azure Dagger",
+   "type": "sword"
+  },
+  {
+   "id": 182,
+   "name": "Azure Greataxe",
+   "type": "sword"
+  },
+  {
+   "id": 183,
+   "name": "Azure Greatsword",
+   "type": "sword"
+  },
+  {
+   "id": 184,
+   "name": "Azure Pickaxe",
+   "type": "sword"
+  },
+  {
+   "id": 185,
+   "name": "Azure Sabre",
+   "type": "sword"
+  },
+  {
+   "id": 186,
+   "name": "Azure Scythe",
+   "type": "sword"
+  },
+  {
+   "id": 187,
+   "name": "Berserker's Cleaver",
+   "type": "sword"
+  },
+  {
+   "id": 188,
+   "name": "Berserker's Greataxe",
+   "type": "sword"
+  },
+  {
+   "id": 189,
+   "name": "Black Iron Clobberer",
+   "type": "sword"
+  },
+  {
+   "id": 190,
+   "name": "Black Iron Greataxe",
+   "type": "sword"
+  },
+  {
+   "id": 191,
+   "name": "Black Iron Greatsword",
+   "type": "sword"
+  },
+  {
+   "id": 192,
+   "name": "Calamity Blade",
+   "type": "sword"
+  },
+  {
+   "id": 193,
+   "name": "Claymore",
+   "type": "sword"
+  },
+  {
+   "id": 194,
+   "name": "Crescent Greataxe",
+   "type": "sword"
+  },
+  {
+   "id": 195,
+   "name": "Crimson Cleaver",
+   "type": "sword"
+  },
+  {
+   "id": 196,
+   "name": "Crystal Frostblade",
+   "type": "sword"
+  },
+  {
+   "id": 197,
+   "name": "Crystal Frostscythe",
+   "type": "sword"
+  },
+  {
+   "id": 198,
+   "name": "Demon's Blood Blade",
+   "type": "sword"
+  },
+  {
+   "id": 199,
+   "name": "Demon's Blood Pick",
+   "type": "sword"
+  },
+  {
+   "id": 200,
+   "name": "Demonic Sword",
+   "type": "sword"
+  },
+  {
+   "id": 201,
+   "name": "Demonslayer's Greatsword",
+   "type": "sword"
+  },
+  {
+   "id": 202,
+   "name": "Dragon Sword",
+   "type": "sword"
+  },
+  {
+   "id": 203,
+   "name": "Emerald Greatcleaver",
+   "type": "sword"
+  },
+  {
+   "id": 204,
+   "name": "Ethereal Frostblade",
+   "type": "sword"
+  },
+  {
+   "id": 205,
+   "name": "Flamberge",
+   "type": "sword"
+  },
+  {
+   "id": 206,
+   "name": "Gilded Phoenix Greataxe",
+   "type": "sword"
+  },
+  {
+   "id": 207,
+   "name": "Gloomsteel Greataxe",
+   "type": "sword"
+  },
+  {
+   "id": 208,
+   "name": "Gloomsteel Katana",
+   "type": "sword"
+  },
+  {
+   "id": 209,
+   "name": "Gloomsteel Knife",
+   "type": "sword"
+  },
+  {
+   "id": 210,
+   "name": "Grand Claymore",
+   "type": "sword"
+  },
+  {
+   "id": 211,
+   "name": "Heavenly Partisan",
+   "type": "sword"
+  },
+  {
+   "id": 212,
+   "name": "Iron Battle Axe",
+   "type": "sword"
+  },
+  {
+   "id": 213,
+   "name": "Iron Broadsword",
+   "type": "sword"
+  },
+  {
+   "id": 214,
+   "name": "Iron Dagger",
+   "type": "sword"
+  },
+  {
+   "id": 215,
+   "name": "Iron Greataxe",
+   "type": "sword"
+  },
+  {
+   "id": 216,
+   "name": "Iron Halberd",
+   "type": "sword"
+  },
+  {
+   "id": 217,
+   "name": "Iron Hay Scythe",
+   "type": "sword"
+  },
+  {
+   "id": 218,
+   "name": "Iron Hay Sickle",
+   "type": "sword"
+  },
+  {
+   "id": 219,
+   "name": "Iron Mace",
+   "type": "sword"
+  },
+  {
+   "id": 220,
+   "name": "Iron Polearm",
+   "type": "sword"
+  },
+  {
+   "id": 221,
+   "name": "Iron Sai",
+   "type": "sword"
+  },
+  {
+   "id": 222,
+   "name": "Iron Scythe",
+   "type": "sword"
+  },
+  {
+   "id": 223,
+   "name": "Lycanbane",
+   "type": "sword"
+  },
+  {
+   "id": 224,
+   "name": "Moonlight",
+   "type": "sword"
+  },
+  {
+   "id": 225,
+   "name": "Nature Sword",
+   "type": "sword"
+  },
+  {
+   "id": 226,
+   "name": "Nocturne",
+   "type": "sword"
+  },
+  {
+   "id": 227,
+   "name": "Oculus",
+   "type": "sword"
+  },
+  {
+   "id": 228,
+   "name": "Phantomguard Greatsword",
+   "type": "sword"
+  },
+  {
+   "id": 229,
+   "name": "Phantomguard Partisan",
+   "type": "sword"
+  },
+  {
+   "id": 230,
+   "name": "Piercer",
+   "type": "sword"
+  },
+  {
+   "id": 231,
+   "name": "Ravenous Blade",
+   "type": "sword"
+  },
+  {
+   "id": 232,
+   "name": "Revenant's Darkscepter",
+   "type": "sword"
+  },
+  {
+   "id": 233,
+   "name": "Revenant's Gravecleaver",
+   "type": "sword"
+  },
+  {
+   "id": 234,
+   "name": "Revenant's Gravescepter",
+   "type": "sword"
+  },
+  {
+   "id": 235,
+   "name": "Runic Piercer",
+   "type": "sword"
+  },
+  {
+   "id": 236,
+   "name": "Sacrificial Cleaver",
+   "type": "sword"
+  },
+  {
+   "id": 237,
+   "name": "Skeleton Axe",
+   "type": "sword"
+  },
+  {
+   "id": 238,
+   "name": "Solstice",
+   "type": "sword"
+  },
+  {
+   "id": 239,
+   "name": "Spider Sword",
+   "type": "sword"
+  },
+  {
+   "id": 240,
+   "name": "Talonbrand",
+   "type": "sword"
+  },
+  {
+   "id": 241,
+   "name": "Talonpick",
+   "type": "sword"
+  },
+  {
+   "id": 242,
+   "name": "Treacherous Axe",
+   "type": "sword"
+  },
+  {
+   "id": 243,
+   "name": "Treacherous Bludgeon",
+   "type": "sword"
+  },
+  {
+   "id": 244,
+   "name": "Treacherous Cleaver",
+   "type": "sword"
+  },
+  {
+   "id": 245,
+   "name": "Uchigatana",
+   "type": "sword"
+  },
+  {
+   "id": 246,
+   "name": "Vaelith",
+   "type": "sword"
+  },
+  {
+   "id": 247,
+   "name": "Valhakyra",
+   "type": "sword"
+  },
+  {
+   "id": 248,
+   "name": "Vengeance Blade",
+   "type": "sword"
+  },
+  {
+   "id": 249,
+   "name": "Vesper",
+   "type": "sword"
+  },
+  {
+   "id": 250,
+   "name": "Vindicator",
+   "type": "sword"
+  },
+  {
+   "id": 251,
+   "name": "Viridian Greataxe",
+   "type": "sword"
+  },
+  {
+   "id": 252,
+   "name": "Viridian Pickaxe",
+   "type": "sword"
+  },
+  {
+   "id": 253,
+   "name": "Void Oculus",
+   "type": "sword"
+  },
+  {
+   "id": 254,
+   "name": "Windreaper",
+   "type": "sword"
+  },
+  {
+   "id": 255,
+   "name": "Winterthorn",
+   "type": "sword"
+  },
+  {
+   "id": 256,
+   "name": "Wooden Bludgeon",
+   "type": "sword"
+  },
+  {
+   "id": 257,
+   "name": "Wooden Tonfa",
+   "type": "sword"
+  },
+  {
+   "id": 258,
+   "name": "Zenith",
+   "type": "sword"
+  }
+ ]
+}

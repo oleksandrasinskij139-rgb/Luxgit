@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "luxvisuals.customsword.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "CustomSwordRenderMixIn"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

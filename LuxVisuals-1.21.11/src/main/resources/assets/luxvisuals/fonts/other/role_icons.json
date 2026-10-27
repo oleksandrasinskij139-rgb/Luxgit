@@ -1,0 +1,182 @@
+{
+  "atlas": {
+    "type": "mtsdf",
+    "distanceRange": 10,
+    "distanceRangeMiddle": 0,
+    "size": 64,
+    "width": 320,
+    "height": 192,
+    "yOrigin": "bottom"
+  },
+  "metrics": {
+    "emSize": 1,
+    "lineHeight": 1,
+    "ascender": 0.9375,
+    "descender": -0.0625,
+    "underlineY": 0,
+    "underlineThickness": 0
+  },
+  "glyphs": [
+    {
+      "unicode": 65,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 0.5,
+        "bottom": 0.5,
+        "right": 63.5,
+        "top": 63.5
+      }
+    },
+    {
+      "unicode": 66,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 64.5,
+        "bottom": 0.5,
+        "right": 127.5,
+        "top": 63.5
+      }
+    },
+    {
+      "unicode": 67,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 128.5,
+        "bottom": 0.5,
+        "right": 191.5,
+        "top": 63.5
+      }
+    },
+    {
+      "unicode": 68,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 192.5,
+        "bottom": 0.5,
+        "right": 255.5,
+        "top": 63.5
+      }
+    },
+    {
+      "unicode": 69,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 256.5,
+        "bottom": 0.5,
+        "right": 319.5,
+        "top": 63.5
+      }
+    },
+    {
+      "unicode": 70,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 0.5,
+        "bottom": 64.5,
+        "right": 63.5,
+        "top": 127.5
+      }
+    },
+    {
+      "unicode": 71,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 64.5,
+        "bottom": 64.5,
+        "right": 127.5,
+        "top": 127.5
+      }
+    },
+    {
+      "unicode": 72,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 128.5,
+        "bottom": 64.5,
+        "right": 191.5,
+        "top": 127.5
+      }
+    },
+    {
+      "unicode": 73,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 192.5,
+        "bottom": 64.5,
+        "right": 255.5,
+        "top": 127.5
+      }
+    },
+    {
+      "unicode": 74,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 0.5,
+        "bottom": 128.5,
+        "right": 63.5,
+        "top": 191.5
+      }
+    }
+  ],
+  "kerning": []
+}

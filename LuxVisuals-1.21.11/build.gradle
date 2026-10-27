@@ -1,0 +1,26 @@
+plugins { id 'fabric-loom' version "${loom_version}"; id 'java' }
+version = project.mod_version
+base { archivesName = 'LuxVisuals' }
+repositories {
+    mavenCentral()
+    maven { url 'https://maven.terraformersmc.com/' }   // Mod Menu if needed
+    maven { url 'https://maven.shedaniel.me/' }
+}
+dependencies {
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
+    modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+    // Third-party libs the old jar shaded; now real dependencies (versions: check each project's page)
+    compileOnly 'org.projectlombok:lombok:1.18.34'
+    annotationProcessor 'org.projectlombok:lombok:1.18.34'
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib:2.0.21'
+    implementation 'com.google.code.gson:gson:2.11.0'
+    // TODO as the queue is ported: nv-websocket-client, luaj (only if Figura support is kept), media-player-info
+}
+tasks.withType(JavaCompile).configureEach { options.release = 21; options.encoding = 'UTF-8' }
+processResources { inputs.property 'version', project.version; filesMatching('fabric.mod.json') { expand 'version': project.version } }
+
+// Tier C (см. port_queue/triage.json) зависит от рендер-хелперов, которые ещё не портированы.
+// Исключены из сборки; по мере порта хелперов удаляй строки из tools/tier_c_excludes.txt.
+sourceSets.main.java { file('tools/tier_c_excludes.txt').readLines().findAll { it }.each { exclude it } }

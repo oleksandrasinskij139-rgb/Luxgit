@@ -1,0 +1,26 @@
+{
+  "vertex": "phantom:core/position_texture_color",
+  "fragment": "phantom:core/world_scan/fragment",
+  "samplers": [
+    { "name": "Sampler0" },
+    { "name": "Sampler1" }
+  ],
+  "uniforms": [
+    { "name": "ModelViewMat",      "type": "matrix4x4", "count": 16, "values": [ 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0 ] },
+    { "name": "ProjMat",           "type": "matrix4x4", "count": 16, "values": [ 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0 ] },
+    { "name": "ViewProj",          "type": "matrix4x4", "count": 16, "values": [ 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0 ] },
+    { "name": "InvViewProj",       "type": "matrix4x4", "count": 16, "values": [ 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0 ] },
+    { "name": "CamPos",            "type": "float", "count": 3, "values": [ 0.0, 0.0, 0.0 ] },
+    { "name": "ScanOrigin",        "type": "float", "count": 3, "values": [ 0.0, 0.0, 0.0 ] },
+    { "name": "ScanRadius",        "type": "float", "count": 1, "values": [ 0.0 ] },
+    { "name": "ScanWidth",         "type": "float", "count": 1, "values": [ 1.8 ] },
+    { "name": "ScanTrail",         "type": "float", "count": 1, "values": [ 8.0 ] },
+    { "name": "WaveColor",         "type": "float", "count": 3, "values": [ 0.0, 0.9, 1.0 ] },
+    { "name": "GridColor",         "type": "float", "count": 3, "values": [ 0.0, 1.0, 0.55 ] },
+    { "name": "TrailColor",        "type": "float", "count": 3, "values": [ 0.35, 0.38, 0.96 ] },
+    { "name": "GridIntensity",     "type": "float", "count": 1, "values": [ 1.0 ] },
+    { "name": "ContourIntensity",  "type": "float", "count": 1, "values": [ 1.0 ] },
+    { "name": "ScanAlpha",         "type": "float", "count": 1, "values": [ 0.0 ] },
+    { "name": "Time",              "type": "float", "count": 1, "values": [ 0.0 ] }
+  ]
+}

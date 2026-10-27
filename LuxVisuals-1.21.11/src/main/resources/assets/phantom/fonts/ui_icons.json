@@ -1,0 +1,19 @@
+{
+  "atlas": {"type": "mtsdf", "distanceRange": 8, "distanceRangeMiddle": 0, "size": 64, "width": 256, "height": 192, "yOrigin": "bottom"},
+  "metrics": {"emSize": 1, "lineHeight": 1, "ascender": 1, "descender": 0, "underlineY": 0, "underlineThickness": 0},
+  "glyphs": [
+    {"unicode": 57344, "advance": 1, "planeBounds": {"left": 0, "bottom": 0, "right": 1, "top": 1}, "atlasBounds": {"left": 0, "bottom": 128, "right": 64, "top": 192}, "name": "visuals"},
+    {"unicode": 57345, "advance": 1, "planeBounds": {"left": 0, "bottom": 0, "right": 1, "top": 1}, "atlasBounds": {"left": 64, "bottom": 128, "right": 128, "top": 192}, "name": "utility"},
+    {"unicode": 57346, "advance": 1, "planeBounds": {"left": 0, "bottom": 0, "right": 1, "top": 1}, "atlasBounds": {"left": 128, "bottom": 128, "right": 192, "top": 192}, "name": "configs"},
+    {"unicode": 57347, "advance": 1, "planeBounds": {"left": 0, "bottom": 0, "right": 1, "top": 1}, "atlasBounds": {"left": 192, "bottom": 128, "right": 256, "top": 192}, "name": "cosmetics"},
+    {"unicode": 57348, "advance": 1, "planeBounds": {"left": 0, "bottom": 0, "right": 1, "top": 1}, "atlasBounds": {"left": 0, "bottom": 64, "right": 64, "top": 128}, "name": "friends"},
+    {"unicode": 57349, "advance": 1, "planeBounds": {"left": 0, "bottom": 0, "right": 1, "top": 1}, "atlasBounds": {"left": 64, "bottom": 64, "right": 128, "top": 128}, "name": "color"},
+    {"unicode": 57350, "advance": 1, "planeBounds": {"left": 0, "bottom": 0, "right": 1, "top": 1}, "atlasBounds": {"left": 128, "bottom": 64, "right": 192, "top": 128}, "name": "events"},
+    {"unicode": 57351, "advance": 1, "planeBounds": {"left": 0, "bottom": 0, "right": 1, "top": 1}, "atlasBounds": {"left": 192, "bottom": 64, "right": 256, "top": 128}, "name": "items"},
+    {"unicode": 57352, "advance": 1, "planeBounds": {"left": 0, "bottom": 0, "right": 1, "top": 1}, "atlasBounds": {"left": 0, "bottom": 0, "right": 64, "top": 64}, "name": "settings"},
+    {"unicode": 57353, "advance": 1, "planeBounds": {"left": 0, "bottom": 0, "right": 1, "top": 1}, "atlasBounds": {"left": 64, "bottom": 0, "right": 128, "top": 64}, "name": "search"},
+    {"unicode": 57354, "advance": 1, "planeBounds": {"left": 0, "bottom": 0, "right": 1, "top": 1}, "atlasBounds": {"left": 128, "bottom": 0, "right": 192, "top": 64}, "name": "back"},
+    {"unicode": 57355, "advance": 1, "planeBounds": {"left": 0, "bottom": 0, "right": 1, "top": 1}, "atlasBounds": {"left": 192, "bottom": 0, "right": 256, "top": 64}, "name": "forward"}
+  ],
+  "kerning": []
+}

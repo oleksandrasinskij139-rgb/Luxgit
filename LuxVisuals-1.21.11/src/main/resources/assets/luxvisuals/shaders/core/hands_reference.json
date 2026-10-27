@@ -1,0 +1,21 @@
+{
+  "vertex": "luxvisuals:core/hands_reference",
+  "fragment": "luxvisuals:core/hands_reference",
+  "samplers": [
+    { "name": "Sampler0" },
+    { "name": "Sampler1" },
+    { "name": "Sampler2" }
+  ],
+  "uniforms": [
+    { "name": "uScreen", "type": "float", "count": 4, "values": [1.0, 1.0, 0.0, 0.0] },
+    { "name": "uTintColor", "type": "float", "count": 4, "values": [1.0, 1.0, 1.0, 1.0] },
+    { "name": "uMirror", "type": "float", "count": 4, "values": [0.5, 0.0, 1.0, 1.0] },
+    { "name": "uLighting", "type": "float", "count": 4, "values": [1.0, 3.0, 0.65, 1.0] },
+    { "name": "uHistory", "type": "float", "count": 4, "values": [1.0, 0.04, 0.2, 0.0] },
+    { "name": "uMotion", "type": "float", "count": 4, "values": [0.02, 0.2, 0.016, 0.0] },
+    { "name": "uShader", "type": "float", "count": 4, "values": [1.5, 1.5, 1.2, 2.0] },
+    { "name": "uShader2", "type": "float", "count": 4, "values": [1.0, 1.0, 0.0, 0.0] },
+    { "name": "uSecondTint", "type": "float", "count": 4, "values": [1.0, 1.0, 1.0, 1.0] },
+    { "name": "uCameraMotion", "type": "float", "count": 4, "values": [0.0, 0.0, 0.0, 0.0] }
+  ]
+}

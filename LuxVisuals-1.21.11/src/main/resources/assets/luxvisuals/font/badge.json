@@ -1,0 +1,13 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "luxvisuals:font/badge.png",
+      "ascent": 9,
+      "height": 10,
+      "chars": [
+        "\ue999"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+package code.miaware.api.utils.render.display;
+
+import code.miaware.api.system.files.Kc1f6f8c785f6a08448;
+import code.miaware.api.system.interfaces.K4600bef438dafc1a9c;
+import code.miaware.api.utils.color.K80ee108ea129adac11;
+import code.miaware.api.utils.render.Ke8433384857ddcab3d;
+import com.mojang.blaze3d.systems.RenderSystem;
+import java.awt.Color;
+import net.minecraft.class_10149;
+import net.minecraft.class_10156;
+import net.minecraft.class_286;
+import net.minecraft.class_287;
+import net.minecraft.class_289;
+import net.minecraft.class_290;
+import net.minecraft.class_4587;
+import net.minecraft.class_5944;
+import net.minecraft.class_293.class_5596;
+import org.joml.Matrix4f;
+import org.joml.Vector4f;
+
+public class Ka9c28a2b9fee5a34d6 implements K4600bef438dafc1a9c {
+   private static final class_10156 shaderKey;
+
+   public void draw(class_4587 matrixStack, float x, float y, float width, float height, float radius, Color topLeft, Color topRight, Color bottomLeft, Color bottomRight) {
+      this.draw(matrixStack, x, y, width, height, new Vector4f(radius), topLeft, topRight, bottomLeft, bottomRight);
+   }
+
+   public void draw(class_4587 matrixStack, float x, float y, float width, float height, Vector4f radius, Color topLeft, Color topRight, Color bottomLeft, Color bottomRight) {
+      Matrix4f matrix4f = matrixStack.method_23760().method_23761();
+      float z = 0.0F;
+      float smoothness = 1.0F;
+      float horizontalPadding = -smoothness / 2.0F + smoothness * 2.0F;
+      float verticalPadding = smoothness / 2.0F + smoothness;
+      float adjustedX = x - horizontalPadding / 2.0F;
+      float adjustedY = y - verticalPadding / 2.0F;
+      float adjustedWidth = width + horizontalPadding;
+      float adjustedHeight = height + verticalPadding;
+      Ke8433384857ddcab3d.record(matrix4f, adjustedX, adjustedY, adjustedWidth, adjustedHeight);
+      float[] color1 = K80ee108ea129adac11.normalize(topLeft);
+      float[] color2 = K80ee108ea129adac11.normalize(bottomLeft);
+      float[] color3 = K80ee108ea129adac11.normalize(bottomRight);
+      float[] color4 = K80ee108ea129adac11.normalize(topRight);
+      RenderSystem.enableBlend();
+      Ke8433384857ddcab3d.defaultBlendFunc();
+      RenderSystem.disableCull();
+      class_5944 shader = RenderSystem.setShader(shaderKey);
+      shader.method_34582("uSize").method_1255(width, height);
+      shader.method_34582("uRadius").method_35657(radius.x, radius.z, radius.w, radius.y);
+      shader.method_34582("uSmoothness").method_1251(smoothness);
+      shader.method_34582("uTopLeftColor").method_35657(color1[0], color1[1], color1[2], color1[3]);
+      shader.method_34582("uBottomLeftColor").method_35657(color2[0], color2[1], color2[2], color2[3]);
+      shader.method_34582("uBottomRightColor").method_35657(color3[0], color3[1], color3[2], color3[3]);
+      shader.method_34582("uTopRightColor").method_35657(color4[0], color4[1], color4[2], color4[3]);
+      class_287 builder = class_289.method_1348().method_60827(class_5596.field_27382, class_290.field_1576);
+      builder.method_22918(matrix4f, adjustedX, adjustedY, z).method_39415(topLeft.getRGB());
+      builder.method_22918(matrix4f, adjustedX, adjustedY + adjustedHeight, z).method_39415(bottomLeft.getRGB());
+      builder.method_22918(matrix4f, adjustedX + adjustedWidth, adjustedY + adjustedHeight, z).method_39415(bottomRight.getRGB());
+      builder.method_22918(matrix4f, adjustedX + adjustedWidth, adjustedY, z).method_39415(topRight.getRGB());
+      class_286.method_43433(builder.method_60800());
+      RenderSystem.enableCull();
+      RenderSystem.disableBlend();
+   }
+
+   static {
+      shaderKey = new class_10156(Kc1f6f8c785f6a08448.getShader("rect/gradient_rect"), class_290.field_1576, class_10149.field_53930);
+   }
+}

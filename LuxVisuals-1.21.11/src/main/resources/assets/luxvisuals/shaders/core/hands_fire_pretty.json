@@ -1,0 +1,18 @@
+{
+  "vertex": "luxvisuals:core/hands_fire_pretty",
+  "fragment": "luxvisuals:core/hands_fire_pretty",
+  "samplers": [
+    { "name": "Sampler0" },
+    { "name": "Sampler1" }
+  ],
+  "uniforms": [
+    { "name": "uTime", "type": "float", "count": 1, "values": [0.0] },
+    { "name": "uHeight", "type": "float", "count": 1, "values": [0.06] },
+    { "name": "uSpeed", "type": "float", "count": 1, "values": [1.5] },
+    { "name": "uIntensity", "type": "float", "count": 1, "values": [1.0] },
+    { "name": "uWind", "type": "float", "count": 1, "values": [1.0] },
+    { "name": "uWave", "type": "float", "count": 1, "values": [1.0] },
+    { "name": "uColor1", "type": "float", "count": 4, "values": [1.0, 0.75, 0.2, 1.0] },
+    { "name": "uColor2", "type": "float", "count": 4, "values": [1.0, 0.25, 0.05, 1.0] }
+  ]
+}
