@@ -1,0 +1,94 @@
+name: Port LuxVisuals 1.21.11
+
+# Запуск вручную: Actions -> "Port LuxVisuals 1.21.11" -> Run workflow -> выбрать stage.
+# Порядок: remap -> migrate -> build (build можно запускать сколько угодно раз).
+on:
+  workflow_dispatch:
+    inputs:
+      stage:
+        description: "remap = intermediary -> yarn 1.21.4, migrate = yarn 1.21.4 -> 1.21.11, build = сборка + лог"
+        required: true
+        default: remap
+        type: choice
+        options: [remap, migrate, build]
+
+permissions:
+  contents: write
+
+jobs:
+  port:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    defaults:
+      run:
+        working-directory: LuxVisuals-1.21.11
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.14.3'
+
+      - name: Найти версии Yarn / Fabric API на maven.fabricmc.net
+        id: ver
+        run: |
+          Y_OLD=$(curl -fsS https://maven.fabricmc.net/net/fabricmc/yarn/maven-metadata.xml | grep -o '1\.21\.4+build\.[0-9]*' | sort -t. -k4 -n | tail -1)
+          Y_NEW=$(curl -fsS https://maven.fabricmc.net/net/fabricmc/yarn/maven-metadata.xml | grep -o '1\.21\.11+build\.[0-9]*' | sort -t. -k4 -n | tail -1)
+          F_OLD=$(curl -fsS https://maven.fabricmc.net/net/fabricmc/fabric-api/fabric-api/maven-metadata.xml | grep -o '[0-9.]*+1\.21\.4' | sort -V | tail -1)
+          echo "y_old=$Y_OLD" >> "$GITHUB_OUTPUT"
+          echo "y_new=$Y_NEW" >> "$GITHUB_OUTPUT"
+          echo "f_old=$F_OLD" >> "$GITHUB_OUTPUT"
+          echo "yarn old=$Y_OLD new=$Y_NEW, fabric-api old=$F_OLD"
+
+      - name: "[remap] intermediary -> yarn 1.21.4"
+        if: inputs.stage == 'remap'
+        run: |
+          curl -fsSLO "https://maven.fabricmc.net/net/fabricmc/yarn/${{ steps.ver.outputs.y_old }}/yarn-${{ steps.ver.outputs.y_old }}-v2.jar"
+          unzip -o "yarn-${{ steps.ver.outputs.y_old }}-v2.jar" mappings/mappings.tiny
+          python3 tools/remap_sources.py mappings/mappings.tiny src/main/java port_queue/java
+          rm -rf mappings yarn-*.jar
+          echo "intermediary left in src: $(grep -rlE 'class_[0-9]+' src | wc -l) files"
+          echo "intermediary left in port_queue: $(grep -rlE 'class_[0-9]+' port_queue/java | wc -l) files"
+
+      - name: "[migrate] yarn 1.21.4 -> 1.21.11 (migrateMappings)"
+        if: inputs.stage == 'migrate'
+        run: |
+          set +e
+          gradle migrateMappings --stacktrace \
+            -Pminecraft_version=1.21.4 \
+            -Pyarn_mappings="${{ steps.ver.outputs.y_old }}" \
+            -Pfabric_api_version="${{ steps.ver.outputs.f_old }}" \
+            --mappings "${{ steps.ver.outputs.y_new }}" 2>&1 | tee migrate.log
+          if [ -d remappedSrc ]; then
+            rm -rf src/main/java && mkdir -p src/main && cp -r remappedSrc/. src/main/java/ && rm -rf remappedSrc
+          fi
+          mkdir -p build_logs && mv migrate.log build_logs/migrate.log
+
+      - name: "[build] сборка с логом ошибок"
+        if: inputs.stage == 'build'
+        run: |
+          set +e
+          gradle build --continue --stacktrace 2>&1 | tee build.log
+          mkdir -p build_logs
+          grep -E "error:|warning: \[|FAILED|BUILD" build.log | head -400 > build_logs/errors.txt
+          mv build.log build_logs/build.log
+          echo "errors: $(grep -c 'error:' build_logs/errors.txt)"
+
+      - name: Закоммитить результат
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "port: ${{ inputs.stage }}"
+          git pull --rebase origin ${{ github.ref_name }} || true
+          git push
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: logs-${{ inputs.stage }}
+          path: LuxVisuals-1.21.11/build_logs/
+          if-no-files-found: ignore
